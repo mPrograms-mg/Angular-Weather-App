@@ -2,6 +2,10 @@
 
 live link : https://angular-live-weather-app.netlify.app/
 
+Step 1 : Enter city name in input box
+
+Step 2 : And click Enter button then show live Wearther of your city
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
