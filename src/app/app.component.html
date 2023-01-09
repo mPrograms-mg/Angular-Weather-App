@@ -15,7 +15,7 @@
       <img src="../assets//Weather.webp" alt="weather" />
       <div class="weather-data">
         <div class="location">{{ weatherData?.name }}</div>
-        <div class="temp">{{ weatherData?.main.temp | number: "1.0-0" }}°C</div>
+        <div class="temp">{{ weatherData?.main.temp }}°C</div>
       </div>
     </div>
     <div class="lowe-data">
@@ -27,7 +27,7 @@
             <span>Min</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData?.main.temp_min | number: "1.0-0" }}°C
+            {{ weatherData?.main.temp_min | number : "1.0-0" }}°C
           </div>
         </div>
         <div class="info-block">
@@ -36,7 +36,7 @@
             <span>Max</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData?.main.temp_max | number: "1.0-0" }}°C
+            {{ weatherData?.main.temp_max | number : "1.0-0" }}°C
           </div>
         </div>
 
@@ -46,7 +46,7 @@
             <span>humidity</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData?.main.humidity | number: "1.0-0" }}%
+            {{ weatherData?.main.humidity | number : "1.0-0" }}%
           </div>
         </div>
         <div class="info-block">
@@ -55,7 +55,7 @@
             <span>Wind</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData?.wind.speed | number: "1.0-0" }}km/h
+            {{ weatherData?.wind.speed | number : "1.0-0" }}km/h
           </div>
         </div>
       </div>
